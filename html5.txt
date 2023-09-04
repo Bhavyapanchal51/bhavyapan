@@ -1,0 +1,7 @@
+1-In HTML5 the new tags are: <header>,<footer>,<main>,<nav>,<section>,<figure>,<article>,<aside>,<time>,<mark>,<meter>,<progress>,<wbr>,<datalist>,<ruby>,<summary>,<details>.
+
+2-We can embed audio and video by <audio>,<video>. For embeding audio in webpage there is 'controls' attribute to control audio. For video there is also 'controls' attribute, we can also set video's width and height.
+
+3-Semantic elements in HTML5: <header>,<footer>,<main>,<nav>,<section>,<figure>,<article>,<aside>,<time>,<mark>,<meter>,<progress>,<wbr>,<datalist>,<ruby>,<summary>,<details>.
+
+4-Canvas tag (<canvas>) allows you to create dynamic graphics, animations, and interactive content in a web page. It is created with an id attribute for identification and width and height attributes. SVG tag(Scalable Vector Graphics)(<svg>) is used for describing two-dimensional vector graphics. With this we can use various SVG elements to define shapes. It has properties like position, size, color, etc.
