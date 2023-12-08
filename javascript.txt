@@ -1,0 +1,38 @@
+1-JavaScript is a high-level, dynamic, interpreted programming language that is primarily known for its use in web development. It allows developers to add interactivity, dynamic content to websites.
+
+2-The isNaN function in JavaScript stands for "is Not a Number." It is used to determine whether a given value is a valid number or not. The function returns true if the value is NaN.
+
+3-Infinity is a special numeric value representing positive infinity.it is used to represent a value that is smaller than any other number.
+
+4-JavaScript was developed by Netscape Communications Corporation.
+
+5-Undeclared variables: These are variables that have been used in code without being declared using the var, let, or const keyword. Using an undeclared variable can lead to unexpected behavior.
+
+Undefined variables: These are variables that have been declared but have not been assigned a value. In JavaScript, if you try to use a variable that has been declared but not assigned, its value is undefined.
+
+6-var newParagraph = document.createElement('p');
+newParagraph.textContent = 'This is a new paragraph.';
+document.body.appendChild(newParagraph); 
+
+7-ViewState: It is a client-side state management technique used in ASP.NET. It stores information about the state of a page on the client's machine.
+SessionState: It is a server-side state management technique in ASP.NET. It stores information about a user session on the server.
+
+8-The === operator in JavaScript is the strict equality operator. It checks both value and type for equality. It returns true if both operands are equal without type conversion; otherwise, it returns false.
+
+9-Style: element.style.property = 'value';
+Class: element.classList.add('className');
+
+10-you can interact with files using the File API in HTML5 or by using server-side JavaScript (Node.js) for file operations.
+
+11-for loop, while loop, do-while loop, for...in loop, for...of loop.
+
+13-The delete operator in JavaScript is used to delete an object, object property, or an element at a specified index in an array.
+
+14-ypes of Pop-up Boxes:alert(), prompt(), confirm().
+
+15-void(0) is often used in the href attribute of a link to prevent the page from navigating to a new URL when the link is clicked.
+
+16-You can force a page to load another using JavaScript by setting the window.location.href property to URL.
+
+17-It Executes scripts, posing security risks,Overwrites content, potentially causing data loss.
+
