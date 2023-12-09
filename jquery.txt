@@ -1,0 +1,33 @@
+1-jQuery is a fast and lightweight JavaScript library designed to simplify the client-side scripting of HTML.It has features like: DOM Manipulation,Event Handling,Ajax Interactions,Animation,Cross-browser Compatibility.It simplifies selecting and manipulating HTML elements on a webpage, making it easier to change content, handle events.It provides a simplified way to handle events like clicks, mouseovers, and keyboard inputs, making interactive web development.It includes built-in functions for creating smooth animations and transitions on web pages.It is designed to work consistently across different web browsers.
+
+2-For Applying CSS using JQUERY use css() method in jquery.Ex:
+$(document).ready(function() {
+    $('#myElement').css({
+      'color': 'blue',
+      'font-size': '18px'
+    });
+  });
+
+For Adding and Removing Classes use the addClass() and removeClass() methods in jQuery.ex:
+ $(document).ready(function() {
+    $('#myElement').addClass('highlight')
+
+ setTimeout(function() {
+      $('#myElement').removeClass('highlight');
+},
+
+For JQUERY Animation ex:
+$(document).ready(function() {
+$('#myElement').animate({
+      width: '200px',
+      height: '200px'
+    }
+
+3-To create slider with animation first we have to create HTML stucture.In this create a container for the slider and individual slides,add the necessary HTML structure for the images and navigation buttons.
+then for CSS,style the container, slides, and navigation buttons,use CSS transitions for smooth animation effects.
+at last for jquery,write a jQuery script to handle the animation and navigation,define functions to move to the next and previous slides,use the setInterval function for automatic sliding.
+
+
+
+
+
