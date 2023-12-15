@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment3</title>
+    <link rel="stylesheet" href="style3.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Date Interval</h1>
+        <hr>
+        <label>From:</label>
+        <input type="date" name="" id="fromDate">
+        <br><br>
+        <label>To:</label>
+        <input type="date" name="" id="toDate">
+    </div>
+    <script src="<script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        var fromDate;
+        $('#fromDate').on('change', function () {
+            fromDate = $(this).val();
+            $('#toDate').prop('min', function () {
+                return fromDate;
+            })
+        });
+        var toDate;
+        $('#toDate').on('change', function () {
+            toDate = $(this).val();
+            $('#toDate').prop('max', function () {
+                return toDate;
+            })
+        });
+
+    </script>
+</body>
+
+</html>
